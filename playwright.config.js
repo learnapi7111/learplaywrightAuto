@@ -24,7 +24,7 @@ module.exports = defineConfig({
   reporter: 'html',
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
-    headless : false,
+    headless : true,
     browserName : 'chromium',
     ignoreHTTPSErrors: true ,
    // screenshot : 'on',
